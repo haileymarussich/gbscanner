@@ -1,0 +1,2 @@
+-r requirements.txt
+spyder==5.1.5
