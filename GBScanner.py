@@ -4,15 +4,14 @@ import pandas as pd
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt
-import chardet
 import os
-import glob
+import glob2
 
 st.set_page_config(layout="wide")
 
 # location
 folder_path = r"C:\Users\haile\Desktop\Bit by Bit Compliance\PureCoin\Raw Transactions"
-file_list = glob.glob(os.path.join(folder_path + "/*.csv"))
+file_list = glob2.glob(os.path.join(folder_path + "/*.csv"))
             
 # grab csv files from folder
 main_dataframe = pd.DataFrame()
