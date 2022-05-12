@@ -3,4 +3,5 @@ pandas
 numpy
 matplotlib
 streamlit-option-menu
+streamlit_aggrid
 glob2
